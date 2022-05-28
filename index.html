@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="widtd=device-widtd, initial-scale=1.0">
+    <title>BirlGym</title>
+    <link rel="stylesheet" href="style.css">
+
+    <!-- Alunos: Wesley Vieira e Eduardo Filho-->
+</head>
+<body>
+    <header>
+        <section class="header-box" id="home">
+                <div class="header-box-text">
+                    <img src="img/birlgym-logogrand.svg" alt="logo">
+                    <h2 class="header-box-one-text-subtitle">Na nossa Academia você entra no músculo e constroí fibra</h2>
+                </div>
+                <img src="img/logogrande.svg" alt="logogrande">
+        </section>
+        <section class="nav-bar-all">
+            <img class="nav-bar-image" src="img/solologo.svg" alt="logo-pequena">
+            <nav class="nav-bar">
+                <a class="nav-item" href="#home">Inicio</a>
+                <a class="nav-item" href="#aboutus">Sobre nós</a>
+                <a class="nav-item" href="#treino">Treinos Coletivos</a>
+                <a class="nav-item" href="#faleconosco">Fale Conosco</a>
+            </nav>
+        </section>
+    </header>
+    <main class="secs">
+        <section class="sec-one">
+            <img src="img/tips-img1 (1).svg" alt="tip1">
+            <img src="img/tips-img2.svg" alt="tip2">
+            <img src="img/tips-img3.svg" alt="tip3">
+        </section>
+        <section class="sec-two" id="aboutus">
+            <h1 class="sec-two-title">Sobre nós</h1>
+            <p class="sec-two-parag1">
+                Fundada em 2019, a <b>BirlGym</b> foi criada com o propósito de democratizar o acesso à prática de
+                atividade física de alto padrão, com planos acessíveis e experiência simples. Só aceitamos
+                em nossas redes de academia quem realmente <b>constrói fibra e não é só água com músculo</b>. Nós 
+                priorizados o melhor atendimento para todos os nosso alunos. 
+            </p>
+            <div class="sec-two-video-box">
+                <video class="sec-two-video" width="100" controls loop>
+                    <source src="video/video-gym.mp4" type="video/mp4">
+                </video>
+            </div>
+    
+            <p class="sec-two-parag2">
+                Nossa missão é transformar você em um bodybuilder, transformando o complicado em simples,
+                ou seja, aqui <b> você vai para de ser frango e começar a malhar de verdade.</b>
+            </p>
+        </section>
+        <section class="sec-three" id="treino">
+            <h1 class="sec-three-title">Treinos Coletivos</h1>
+            <p class="sec-three-parag1">
+                <b> Para quem não gosta de musculaçãb ou preferer mudar os hábitos de vez enquando</b>, nós da rede
+                BirlGym também oferecemos nossas aulas coletivas, como: <b>Step, Gap, Boxe, Funcional e etc.</b> Veja
+                qual dia é melhor para você e bora se exercitar cumpade.
+            </p>
+        </section>
+        <section class="sec-four">
+            <div class="sec-four-table-container">
+                <table class="sec-four-table">
+                    <thead>
+                        <tr>
+                            <th>Segunda</th>
+                            <th>Quarta</th>
+                            <th>Sexta</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>STEP</td>
+                            <td>GAP</td>
+                            <td>Dança</td>
+                        </tr>
+                        <tr>
+                            <td>Funcional</td>
+                            <td>GAP</td>
+                            <td>GAP</td>
+                        </tr>
+                        <tr>
+                            <td rowspan="2">Dança</td>
+                            <td>Funcional</td>
+                            <td>STEP</td>
+                        </tr>
+                        <tr>
+                            <td colspan="2">BOXE</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+
+            <div class="sec-four-box-image">
+                <img class="sec-four-image" src="img/mulher-boxe.svg" alt="boxe">
+            </div>
+        </section>
+    </main>
+
+    <footer class="rodape" id="faleconosco">
+        <div class="form">
+            <form action="#">
+                <div class="form-title">
+                    <h1>Fale Conosco</h1>
+                    <p> Mande suas dúvidas, feedbacks, aulas que gostaria de ter na academia e tudo mais. Complete
+                        o formulário abaixo e logo em seguida fale conosco, pretendemos responder o mais rápido 
+                        póssivel.
+                    </p>
+                </div>
+    
+                <div class="input-boxes">
+                    <div class="input-box">
+                        <label for="primeironome">Nome</label>
+                        <input type="text" id="primeironome" placeholder="Digite seu nome" required>
+                    </div>
+                    <div class="input-box">
+                        <label for="sobrenome">Sobrenome</label>
+                        <input type="text" id="sobrenome" placeholder="Digite seu sobrenome" required>
+                    </div>
+                    <div class="input-box">
+                        <label for="email">Email</label>
+                        <input type="email" id="email" placeholder="Digite seu email" required>
+                    </div>
+                </div>
+                
+                <div class="select-box">
+                    <div class="select-title"><h6>Selecione a aula</h6></div>
+                    <div class="select-category">
+                        <select>
+                            <option value="hide">Selecione</option>
+                            <option value="Step">Step</option>
+                            <option value="Gap">Gap</option>
+                            <option value="Boxe">Boxe</option>
+                            <option value="Funcional">Funcional</option>
+                            <option value="Danca">Dança</option>
+                        </select>
+                    </div>
+                </div>
+
+                <div class="gender-box">
+                    <div class="gender-title"><h6>Gênero</h6></div>
+                    <div class="gender-category">
+                        <div class="gender-input">
+                            <input type="radio" name="gender" id="mas">
+                            <label for="mas">Masculino</label>
+                        </div>
+                        <div class="gender-input">
+                            <input type="radio" name="gender" id="fem">
+                            <label for="fem">Feminino</label>
+                        </div>
+                        <div class="gender-input">
+                            <input type="radio" name="gender" id="etc">
+                            <label for="etc">Prefiro não dizer</label>
+                        </div>
+                    </div>
+                </div>
+                <div class="text-box">
+                    <div class="text-box-title"><h6>Fale conosco</h6></div>
+                    <div class="text-box-input">
+                        <textarea name="textarea" id="" cols="80" rows="7" placeholder="Digite aqui..."></textarea>
+                    </div>
+                </div>
+                <div class="button">
+                    <input type="submit" value="Enviar">
+                </div>
+            </form>
+        </div>
+    </footer>
+</body>
+</html>
