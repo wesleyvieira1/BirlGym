@@ -120,14 +120,14 @@ html{
 
 .sec-two-parag1{
     text-align: center;
-    /**margin-left: 240px;
-    margin-right: 240px;**/
+    width: 50%;
+    margin: 0 auto;
     font-family: 'Poppins', 'sans serif';  
 }
 .sec-two-parag2{
     text-align: center;
-    /**margin-left: 240px;
-    margin-right: 240px;**/
+    width: 50%;
+    margin: 0 auto;
     padding: 30px;
     font-family: 'Poppins', 'sans serif';
 }
@@ -160,8 +160,8 @@ html{
 }
 .sec-three-parag1{
     text-align: center;
-    /**margin-left: 240px;
-    margin-right: 240px;**/
+    width: 50%;
+    margin: 0 auto;
     font-family: 'Poppins', 'sans serif';
 }
 
