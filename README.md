@@ -8,3 +8,5 @@ Aluno 1: Wesley Henrique da Silva Vieira
 
 
 Aluno 2: Eduardo Antônio Leitão de Oliveira Lima e Moura Filho
+
+Professor: Gustavo Vieira
