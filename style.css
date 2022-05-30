@@ -210,11 +210,6 @@ td{
 .sec-four-image{
     height: 430px;
 }
-.sec-four-box-image{
-    border-left: 0.4px solid black;
-    padding-left: 100px;
-}
-
 
 .rodape{
     display: flex;
